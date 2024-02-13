@@ -1,3 +1,3 @@
 # Kokoa Clone 2024 Upadte
 
-CSS got so much better!
+HTMAL & CSS are so much fun!
