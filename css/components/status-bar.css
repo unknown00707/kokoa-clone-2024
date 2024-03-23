@@ -3,21 +3,14 @@
     justify-content: center;
 }
 
-.wifi {
-    width: 20px;
-    height: 20px;
-}
-.battery {
-    width: 20px;
-    height: 20px;
-}
-.bolt {
+.status-img {
     width: 20px;
     height: 20px;
 }
 
 .status-bar__column {
-    width: 33%;
+    width: 99%;
+    position: fixed;
 }
 
 .status-bar__column:first-child span {

@@ -1,6 +1,11 @@
 .nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #f9f9fa;
-    padding: 20px 40px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
 .nav__list {
@@ -8,7 +13,54 @@
     justify-content: space-between;
 }
 
-img {
+.nav__link {
+    position: relative;
+    color: black;
+}
+
+.friends {
+    width: 35px;
+    height: 35px;
+}
+
+.chats {
+    width: 35px;
+    height: 35px;
+}
+
+.scop {
+    width: 35px;
+    height: 35px;
+}
+.dots {
+    width: 35px;
+    height: 35px;
+}
+
+.nav__notification {
+    background-color: tomato;
     width: 25px;
     height: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.nav__notification_01 {
+    background-color: tomato;
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 45px;
+    bottom: 30px;
 }
