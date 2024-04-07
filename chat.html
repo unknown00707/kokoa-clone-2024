@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat w/ Kafka - Kokoa Clone</title>
+    </head>
+    <body id="chat-screen">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <img src="https://cdn-icons-png.flaticon.com/512/260/260318.png" class="status-img" />
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <img
+                    src="https://cdn.icon-icons.com/icons2/1489/PNG/512/mediumchargebattery_102654.png"
+                    class="status-img"
+                />
+                <img src="https://cdn-icons-png.flaticon.com/512/657/657003.png" class="status-img" />
+            </div>
+        </div>
+
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html">
+                    <img class="alt-header__column-img" src="https://cdn-icons-png.flaticon.com/512/860/860790.png" />
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Kafka</h1>
+            </div>
+            <div class="alt-header__column">
+                <span>
+                    <img class="alt-header__column-img" src="https://cdn-icons-png.flaticon.com/512/3891/3891809.png" />
+                </span>
+                <span>
+                    <img class="alt-header__column-img" src="https://cdn-icons-png.flaticon.com/512/7560/7560656.png" />
+                </span>
+            </div>
+        </header>
+
+        <main class="main-screen main-chat">
+            <div class="chat__timetamp">Tuesday, June 30 ,2024</div>
+
+            <div class="message-row">
+                <img
+                    class="forOnlyAnime"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSard3gEJHSCrp-KF_deFD-qEqUkLLvyBNAwmXHb1nDIQ&s"
+                />
+                <div class="message-row__content">
+                    <span class="message__author">Kafka</span>
+                    <div class="message__info">
+                        <span class="message_bubble">Hi</span>
+                        <span class="message_time">21:27</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message_bubble">Hi</span>
+                        <span class="message_time">21:27</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <img
+                    class="reply__column-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYerj-LSePgXUh2gkJsbB2wWoomrF_GNCKQrg1L-UdQ&s"
+                />
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message..." />
+                <img
+                    class="reply__column-img aboulte-img face"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6mVeasgUhCjzt_UJsCXD2UR7zVqzeNRAfZuI2Aty1XUP4kr2ezG79WcVBtsWJJL-UywI&usqp=CAU"
+                />
+                <button>
+                    <img
+                        class="reply__column-img aboulte-img plus-button"
+                        src="https://cdn-icons-png.flaticon.com/512/25/25637.png"
+                    />
+                </button>
+            </div>
+        </form>
+
+        <div id="no-mobile">
+            <span>Your screen is too big ㅠㅠ</span>
+        </div>
+        <div id="no-mobile-h">
+            <span>The screen is so small! ㅠㅠ</span>
+        </div>
+    </body>
+</html>

@@ -38,18 +38,22 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    width: 25px;
-    height: 25px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 400;
     position: absolute;
     left: 20px;
     bottom: 20px;
+    animation: notificationAnimaion 2s ease-in-out infinite;
+}
+
+@keyframes notificationAnimaion {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100% {
+        transform: none;
+    }
 }
 
 .nav__notification_01 {
@@ -63,4 +67,43 @@
     position: absolute;
     left: 45px;
     bottom: 30px;
+}
+
+.nav__notification_02 {
+    background-color: tomato;
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 12px;
+    top: 40px;
+}
+
+@keyframes apperBtnAnimaion {
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.nav__btn {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: apperBtnAnimaion 0.3s ease-in-out forwards;
+}
+
+.nav__btn:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.nav__btn:nth-child(3) {
+    animation-delay: 0.5s;
+}
+.nav__btn:last-child {
+    animation-delay: 0.8s;
 }

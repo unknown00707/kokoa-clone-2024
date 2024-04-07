@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="css/styles.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Friends - Kokoa Clone</title>
+        <title>More - Kokoa Clone</title>
     </head>
     <body>
         <div class="status-bar">
@@ -26,21 +26,20 @@
         </div>
 
         <header class="screen-header">
-            <h1 class="screen-header__title">Friends</h1>
+            <h1 class="screen-header__title">More</h1>
             <div class="screen-header__icons">
                 <span><img class="header-img" src="https://cdn-icons-png.flaticon.com/512/3891/3891809.png" /></span>
                 <span><img class="header-img" src="https://cdn-icons-png.flaticon.com/512/727/727218.png" /></span>
-                <span><img class="header-img" src="https://cdn-icons-png.flaticon.com/512/824/824700.png" /></span>
+                <span>
+                    <a href="settings.html">
+                        <img class="header-img" src="https://cdn-icons-png.flaticon.com/512/824/824700.png" />
+                    </a>
+                </span>
+                <span class="nav__notification_02"></span>
             </div>
         </header>
 
-        <a id="friends-display-link">
-            <img id="friends-display-inform" src="https://cdn-icons-png.flaticon.com/512/545/545674.png" />
-            Friends's Names Display
-            <img id="friends-display-inform" src="https://cdn-icons-png.flaticon.com/512/64/64491.png" />
-        </a>
-
-        <main class="friends-screen">
+        <main class="main-screen more-screen">
             <div class="user-compoent">
                 <div class="user-compoent__column">
                     <img
@@ -49,48 +48,76 @@
                     />
                     <div class="user-compoent__text">
                         <h4 class="user-compoent__title">Kafka</h4>
-                        <!-- <h6 class="user-compoent__subtitle">this text whatever</h6>-->
+                        <h6 class="user-compoent__subtitle">+ 787 666 999</h6>
                     </div>
                 </div>
-                <div class="user-compoent__column"></div>
-            </div>
-            <div class="friends-screen__channel">
-                <div class="friends-screen__channel-header">
-                    <span>Channel</span>
+                <div class="user-compoent__column">
                     <img
-                        id="friends-display-inform"
-                        src="https://cdn.icon-icons.com/icons2/37/PNG/512/above_theapplication_thearrow_4431.png"
+                        class="comment"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXhqAXChYa_Pwz0Liqjq1QBUyEatBRPRyPTZ3HE1rxHw&s"
                     />
                 </div>
-                <div class="user-compoent">
-                    <div class="user-compoent__column">
-                        <img
-                            class="user-compoent__avatar user-compoent__avatar--sm"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSard3gEJHSCrp-KF_deFD-qEqUkLLvyBNAwmXHb1nDIQ&s"
-                        />
-                        <div class="user-compoent__text">
-                            <h4 class="user-compoent__title user-compoent__title--not-bold">Channel</h4>
-                        </div>
-                    </div>
-                    <div class="user-compoent__column">
-                        <div>
-                            <span>2</span>
+            </div>
+            <div class="icon-row">
+                <div class="icon-row_icon">
+                    <img class="icon-row_img" src="https://cdn-icons-png.flaticon.com/512/55/55281.png" />
+                    <span>Calender</span>
+                </div>
+                <div class="icon-row_icon">
+                    <img class="icon-row_img" src="https://cdn-icons-png.flaticon.com/512/158/158420.png" />
+                    <span>Emoticons</span>
+                </div>
+                <div class="icon-row_icon">
+                    <img class="icon-row_img" src="https://cdn-icons-png.flaticon.com/512/3659/3659781.png" />
+                    <span>Themes</span>
+                </div>
+                <div class="icon-row_icon">
+                    <img
+                        class="icon-row_img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRwzkZnGP3m3KrHLic72L6SF3BIDdFRKDq7_8_ApPaXQ&s"
+                    />
+                    <span>Account</span>
+                </div>
+            </div>
+            <div class="more-suggestions">
+                <h4 class="more-suggestions__title">Suggestions</h4>
+                <div class="more-suggestions__icons">
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
                             <img
-                                id="friends-display-inform"
-                                src="https://cdn-icons-png.flaticon.com/512/64/64491.png"
+                                class="more-suggestions__icon-image_qu"
+                                src="https://cdn-icons-png.flaticon.com/512/157/157248.png"
                             />
                         </div>
+                        <span class="more-suggestions__icon-text">Kokoa Story</span>
+                    </div>
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
+                            <img
+                                class="more-suggestions__icon-image_qu"
+                                src="https://i.namu.wiki/i/TvflmW8hr6yULWMiO47CJdYvwQb9CvSZvFZPmJ7nyntSMkqmjiP2-PsXvNH0ZEhd2ze3_pQru2_HyvzRyKigYg.webp"
+                            />
+                        </div>
+                        <span class="more-suggestions__icon-text">Star Rail</span>
+                    </div>
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
+                            <img
+                                class="more-suggestions__icon-image_qu"
+                                src="https://www.gamevu.co.kr/news/photo/202202/22083_57378_3834.jpg"
+                            />
+                        </div>
+                        <span class="more-suggestions__icon-text">Hoyoverse</span>
                     </div>
                 </div>
             </div>
         </main>
+
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__btn">
                     <a class="nav__link" href="friends.html"
-                        ><img
-                            class="friends"
-                            src="https://cdn.pixabay.com/photo/2016/03/31/15/33/contact-1293388_1280.png"
+                        ><img class="friends" src="https://cdn-icons-png.flaticon.com/512/3106/3106773.png"
                     /></a>
                 </li>
                 <li class="nav__btn">
@@ -115,11 +142,6 @@
                 </li>
             </ul>
         </nav>
-        <div id="splash-screen">
-            <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGqcmNrhv4ylc0-qZBgtxyLMFrzUkcYe47LTkBm6e2IA&s"
-            />
-        </div>
 
         <div id="no-mobile">
             <span>Your screen is too big ㅠㅠ</span>

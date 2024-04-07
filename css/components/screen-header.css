@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px;
+    padding: var(--horizontal-space);
+    padding-top: 40px;
+    margin-bottom: 15px;
 }
 
 .header-img {
@@ -17,4 +19,17 @@
 
 .screen-header__icons span {
     margin-left: 25px;
+}
+
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.header-img:hover {
+    animation: rotateCog 1s linear infinite;
 }

@@ -1,0 +1,33 @@
+.settings-img {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+
+.settings__setting {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+@keyframes moveRightLeft {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+    position: absolute;
+    right: 0px;
+    animation: moveRightLeft 3s ease-in-out infinite;
+}

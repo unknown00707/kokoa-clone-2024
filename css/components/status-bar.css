@@ -28,3 +28,10 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+.wifi,
+.bolt,
+.battery {
+    width: 20px;
+    height: 20px;
+}
